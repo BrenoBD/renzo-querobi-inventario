@@ -24,7 +24,7 @@
   // ------------------------- Defaults -------------------------
   var DEFAULTS = {
     whatsapp: '',                 // obrigatório — número destino, só dígitos com DDI (ex.: 5562994542199)
-    webhook: 'https://n8n.fatemarketing.com.br/webhook/renzo-e-querobi-fp',                  // opcional — URL do webhook (n8n). Se vazio, pula o envio e vai direto ao WhatsApp.
+    webhook: '',                  // opcional — URL do webhook (n8n). Se vazio, pula o envio e vai direto ao WhatsApp.
 
     brand: 'Atendimento',         // nome exibido no cabeçalho
     logo: '',                     // opcional — URL de uma imagem redonda no topo (senão usa ícone do WhatsApp)
